@@ -1,9 +1,9 @@
 def play(opponent, me):
     # rock beats scissors
-    if opponent is 1 and me is 3:
+    if opponent == 1 and me == 3:
         print(values['LOSS'] + me)
         return values['LOSS'] + me
-    # scisssors beats paper and paper beats rock
+    # scissors beats paper and paper beats rock
     if opponent < me:
         print(values['WIN'] + me)
         return values['WIN'] + me
