@@ -53,6 +53,26 @@ if __name__ == '__main__':
     points = 0
     with open('./input', 'r') as f:
         for line in f.readlines():
-            print(line)
+            # print(line)
             points += values[line.strip('\n')]
-    print(points)
+    print('part 1 -> ' + points.__str__())
+
+    # part 2
+    # x = loose, y = tie, z = win
+    values = {
+        "A X": 3,  # loose 0 against rock with scissors 3
+        "A Y": 4,  # tie 3 against rock with rock 1
+        "A Z": 8,  # win 6 against rock with paper 2
+        "B X": 1,  # loose 0 against paper with rock 1
+        "B Y": 5,  # tie 3 against paper with paper 2
+        "B Z": 9,  # win 6 against paper with scissors 3
+        "C X": 2,  # loose 0 against scissors with paper 2
+        "C Y": 6,  # tie 3 against scissors with scissors 3
+        "C Z": 7  # win 6 against scissors with rock 1
+    }
+    points = 0
+    with open('./input', 'r') as f:
+        for line in f.readlines():
+            # print(line)
+            points += values[line.strip('\n')]
+    print('part 2 -> ' + points.__str__())
