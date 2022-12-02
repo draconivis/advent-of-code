@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     elves = []
-    with open('./input', 'r') as f:
+    with open('input', 'r') as f:
         lines = f.readlines()
         temp_elf = 0
         for line in lines:
