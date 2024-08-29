@@ -48,6 +48,63 @@
           "store_path": "/nix/store/00mg4vlhzmm7gi9bd5v5ydjlgrywpc3n-go-1.22.3"
         }
       }
+    },
+    "python@latest": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#python312",
+      "source": "devbox-search",
+      "version": "3.12.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lgymkqydhhmf88rvbq6hagq8lcpfr52w-python3-3.12.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lgymkqydhhmf88rvbq6hagq8lcpfr52w-python3-3.12.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5wr6cnizn2by0m6px4cqmcny6wj63j8x-python3-3.12.3",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/l2893yj1z369wsw13xngjjjipf2rwh8w-python3-3.12.3-debug"
+            }
+          ],
+          "store_path": "/nix/store/5wr6cnizn2by0m6px4cqmcny6wj63j8x-python3-3.12.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cq1758383k2kn3qvggyy82cfy5h1jnxa-python3-3.12.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cq1758383k2kn3qvggyy82cfy5h1jnxa-python3-3.12.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/5s5599pm38hpclwnnc4yf896fbbk8j4y-python3-3.12.3-debug"
+            }
+          ],
+          "store_path": "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3"
+        }
+      }
     }
   }
 }
