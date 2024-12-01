@@ -49,9 +49,58 @@
         }
       }
     },
+    "php@latest": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#php84",
+      "source": "devbox-search",
+      "version": "8.4.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/srya7nxjl3wwjh426xnsnivxygqpiiz2-php-with-extensions-8.4.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/srya7nxjl3wwjh426xnsnivxygqpiiz2-php-with-extensions-8.4.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p63467400yqds78x6lmcq0rg320nzvsk-php-with-extensions-8.4.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p63467400yqds78x6lmcq0rg320nzvsk-php-with-extensions-8.4.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hr3d5vl0l9a8lwdvg93qyq4235b934nq-php-with-extensions-8.4.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hr3d5vl0l9a8lwdvg93qyq4235b934nq-php-with-extensions-8.4.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n33jchajyh4carkkk4grlg4janpdyyyq-php-with-extensions-8.4.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n33jchajyh4carkkk4grlg4janpdyyyq-php-with-extensions-8.4.1"
+        }
+      }
+    },
     "python@latest": {
       "last_modified": "2024-05-22T06:18:38Z",
-      "plugin_version": "0.0.3",
+      "plugin_version": "0.0.4",
       "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#python312",
       "source": "devbox-search",
       "version": "3.12.3",
