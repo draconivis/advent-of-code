@@ -21,7 +21,6 @@ while (!feof($file)) {
         $map[] = array_filter($row, fn ($elem) => "\n" !== $elem);
     }
 }
-$mapCopy = array_values($map);
 
 $xPos = 0;
 $yPos = 0;
