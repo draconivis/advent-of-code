@@ -3,3 +3,4 @@
 .venv/
 *vendor/
 *.php-cs-fixer.cache
+*input*
