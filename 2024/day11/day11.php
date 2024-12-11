@@ -5,7 +5,8 @@ $line = fgets($file);
 $input = explode(' ', trim($line));
 // $input = ['125', '17'];
 
-for ($i = 1; $i <= 25; $i++) {
+// for ($i = 1; $i <= 25; $i++) {
+for ($i = 1; $i <= 75; $i++) {
     // Temporarily hold the modified array
     $newInput = [];
 
